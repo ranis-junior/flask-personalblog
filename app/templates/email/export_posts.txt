@@ -1,0 +1,8 @@
+Caro {{ user.username }},
+
+Segue em anexo o arquivo das suas postagens que foi solicitado.
+
+
+Atenciosamente,
+
+Time PersonalBlog.

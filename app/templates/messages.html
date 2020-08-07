@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import '_macros.html' as macros %}
+
+{% block app_content %}
+    <h1>{{ _('Mensagens') }}</h1>
+    {% for post in messages %}
+        {% include '_post.html' %}
+    {% endfor %}
+    <div class="pagination">
+        {{ macros.pagination_widget(pagination, endpoint, '#comments') }}
+    </div>
+{% endblock %}
