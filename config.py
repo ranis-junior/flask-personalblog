@@ -20,6 +20,8 @@ class Config:
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
     ADMINS = os.getenv('ADMINS', '').split(',')
 
+    LOG_TO_STDOUT = os.getenv('LOG_TO_STDOUT')
+
     # configurações de usabilidade
     POSTS_PER_PAGE = 10
 
