@@ -2,6 +2,8 @@
 Uma Aplicação de Blog feita em flask
 *********************************************
 
+|pyversion|
+
 Criando ambiente virtual
 ########################
 
@@ -110,3 +112,18 @@ Configurar para o uso de Full Text Search com ElasticSearch
 
 Para fazer uso de um servidor ``ElasticSearch`` basta configurar
 a variável de ambiente ``ELASTICSEARCH_URL``, após isso o sistema estará apto a fazer consultas.
+
+
+Iniciar a aplicação
+################################
+
+Depois de configurado e com o ambiente virtual ativado, basta rodar o comando::
+
+$ flask run
+
+
+
+
+.. |pyversion| image:: https://img.shields.io/badge/python-3-green
+    :alt: Supported Python versions.
+    :target: https://www.python.org/download/releases/3.0/
